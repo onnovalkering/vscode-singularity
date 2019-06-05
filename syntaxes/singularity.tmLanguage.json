@@ -1,0 +1,76 @@
+{
+	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+	"name": "Singularity",
+	"patterns": [
+		{
+			"match": "^\\s*\\b(?i:(bootstrap))\\b:.*?(.+?\\b(as)\\b.*)?",
+			"captures": {
+				"1": { "name": "keyword.other.special-method.singularity" },
+				"3": { "name": "keyword.other.special-method.singularity" }
+			}
+		},
+		{
+			"match": "^\\s*\\b(?i:(from))\\b:.*?(.+?\\b(as)\\b.*)?",
+			"captures": {
+				"1": { "name": "keyword.other.special-method.singularity" },
+				"3": { "name": "keyword.other.special-method.singularity" }
+			}
+		},
+		{
+			"match": "^\\s*\\b(?i:(stage|osversion|mirrorurl|include))\\b:",
+			"captures": {
+				"1": { "name": "keyword.other.special-method.singularity" }
+			}
+		},
+		{
+			"match": "^\\s*(%)\\b(post|setup|environment|help|labels|test|runscript|files|startscript)\\b",
+			"captures": {
+				"1": { "name": "keyword.control.singularity" },
+				"2": { "name": "keyword.other.special-method.singularity" }
+			}
+		},	
+		{
+			"name": "string.quoted.single.singularity",
+			"begin": "'",
+			"beginCaptures": {
+				"1": { "name": "punctuation.definition.string.begin.singularity" }
+			},
+			"end": "'",
+			"endCaptures": {
+				"1": { "name": "punctuation.definition.string.end.singularity" }
+			},
+			"patterns": [
+				{
+					"match": "\\\\.",
+					"name": "constant.character.escaped.singularity"
+				}
+			]
+		},		
+		{
+			"name": "string.quoted.double.singularity",
+			"begin": "\"",
+			"beginCaptures": {
+				"1": { "name": "punctuation.definition.string.begin.singularity" }
+			},
+			"end": "\"",
+			"endCaptures": {
+				"1": { "name": "punctuation.definition.string.end.singularity" }
+			},
+			"patterns": [
+				{ 
+					"match": "\\\\.",
+					"name": "constant.character.escaped.singularity"
+				}
+			]
+		},
+		{
+			"match": "^(\\s*)((#).*$\\n?)",
+			"captures": {
+				"1": { "name": "punctuation.whitespace.comment.leading.singularity" },
+				"2": { "name": "comment.line.number-sign.singularity" },
+				"3": { "name": "punctuation.definition.comment.singularity" }
+			}
+		}		
+	],
+	"scopeName": "source.singularity"
+}

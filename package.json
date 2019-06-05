@@ -1,0 +1,25 @@
+{
+	"name": "vscode-singularity",
+    "displayName": "Singularity",
+    "description": "Provides syntax highlighting in Singularity recipes.",
+    "version": "0.1.0",
+    "publisher": "onnovalkering",
+    "engines": { "vscode": "^1.34.0" },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "singularity",
+            "filenames": ["Singularity"],
+            "extensions": [".*"],
+            "aliases": ["Singularity"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "singularity",
+            "scopeName": "source.singularity",
+            "path": "./syntaxes/singularity.tmLanguage.json"
+        }]
+    }
+}
