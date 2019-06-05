@@ -2,9 +2,9 @@
 	"name": "vscode-singularity",
     "displayName": "Singularity",
     "description": "Provides syntax highlighting in Singularity recipes.",
-    "version": "0.1.0",
+    "version": "0.2.0",
     "publisher": "onnovalkering",
-    "engines": { "vscode": "^1.34.0" },
+    "engines": { "vscode": "^1.35.0" },
     "license": "MIT",
     "repository": {
         "type": "git",
@@ -17,7 +17,7 @@
         "languages": [{
             "id": "singularity",
             "filenames": ["Singularity"],
-            "extensions": [".*"],
+            "extensions": [""],
             "aliases": ["Singularity"],
             "configuration": "./language-configuration.json"
         }],
