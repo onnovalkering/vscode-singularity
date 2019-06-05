@@ -1,7 +1,7 @@
 {
 	"name": "vscode-singularity",
     "displayName": "Singularity",
-    "description": "Provides syntax highlighting in Singularity recipes.",
+    "description": "Provides syntax highlighting in Singularity definition files.",
     "version": "0.2.0",
     "publisher": "onnovalkering",
     "engines": { "vscode": "^1.35.0" },
