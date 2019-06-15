@@ -2,8 +2,6 @@
 
 All notable changes to the "vscode-singularity" extension will be documented in this file.
 
-## [Unreleased]
-
 ## [0.2.0] - 2019-06-15
 ### Added
 - Syntax highlighting for bash/shell: strings, variables and keywords.
