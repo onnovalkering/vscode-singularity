@@ -17,7 +17,7 @@
         "languages": [{
             "id": "singularity",
             "filenames": ["Singularity"],
-            "extensions": [""],
+            "extensions": [".def"],
             "aliases": ["Singularity"],
             "configuration": "./language-configuration.json"
         }],
