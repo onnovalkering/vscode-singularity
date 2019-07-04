@@ -2,6 +2,10 @@
 
 All notable changes to the "vscode-singularity" extension will be documented in this file.
 
+## [0.2.2] - 2019-07-04
+### Added
+- Added (custom) extension icon.
+
 ## [0.2.1] - 2019-06-15
 ### Fixed
 - Fixed missing file extension (.def) association.
