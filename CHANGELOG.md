@@ -2,6 +2,10 @@
 
 All notable changes to the "vscode-singularity" extension will be documented in this file.
 
+## [0.3.0] - 2019-07-31
+### Added
+- Support for VS Code comment toggle.
+
 ## [0.2.2] - 2019-07-04
 ### Added
 - Added (custom) extension icon.
