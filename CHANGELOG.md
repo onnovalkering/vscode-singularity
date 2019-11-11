@@ -2,6 +2,10 @@
 
 All notable changes to the "vscode-singularity" extension will be documented in this file.
 
+## [0.4.0] - 2019-11-11
+### Added
+- Recognize files using the Singularity[.tag] pattern.
+
 ## [0.3.0] - 2019-07-31
 ### Added
 - Support for VS Code comment toggle.
