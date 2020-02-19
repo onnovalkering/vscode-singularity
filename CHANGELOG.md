@@ -2,6 +2,10 @@
 
 All notable changes to the "vscode-singularity" extension will be documented in this file.
 
+## [0.5.0] - 2020-02-19
+### Added
+- Highlighting of `%app*` sections.
+
 ## [0.4.0] - 2019-11-11
 ### Added
 - Recognize files using the Singularity[.tag] pattern.

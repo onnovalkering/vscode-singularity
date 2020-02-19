@@ -43,7 +43,14 @@
 				"1": { "name": "keyword.control.singularity" },
 				"2": { "name": "keyword.other.special-method.singularity" }
 			}
-		},	
+		},
+		{
+			"match": "^\\s*(%)\\b(apprun|applabels|appinstall|appenv|apphelp|appfiles)\\b",
+			"captures": {
+				"1": { "name": "keyword.control.singularity" },
+				"2": { "name": "keyword.other.special-method.singularity" }
+			}
+		},			
 		{
 			"name": "string.quoted.single.singularity",
 			"begin": "'",
