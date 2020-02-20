@@ -1,4 +1,7 @@
-[![Marketplace Version](https://vsmarketplacebadge.apphb.com/version/onnovalkering.vscode-singularity.svg "Current Release")](https://marketplace.visualstudio.com/items?itemName=onnovalkering.vscode-singularity)
+[![Visual Studio Marketplace Version](https://img.shields.io/visual-studio-marketplace/v/onnovalkering.vscode-singularity)](https://marketplace.visualstudio.com/items?itemName=onnovalkering.vscode-singularity)
+[![Visual Studio Marketplace Downloads](https://img.shields.io/visual-studio-marketplace/d/onnovalkering.vscode-singularity)](https://marketplace.visualstudio.com/items?itemName=onnovalkering.vscode-singularity)
+[![Visual Studio Marketplace Installs](https://img.shields.io/visual-studio-marketplace/i/onnovalkering.vscode-singularity)](https://marketplace.visualstudio.com/items?itemName=onnovalkering.vscode-singularity)
+[![Visual Studio Marketplace Rating](https://img.shields.io/visual-studio-marketplace/r/onnovalkering.vscode-singularity)](https://marketplace.visualstudio.com/items?itemName=onnovalkering.vscode-singularity)
 
 # Singularity support for Visual Studio Code
 
