@@ -1,7 +1,4 @@
 {
-	"acknowledgements": [
-		"#interpolation, #keyword, #string, #variable originate from https://github.com/microsoft/vscode (MIT License)"
-	],
 	"name": "Singularity",
 	"scopeName": "source.singularity",
 	"patterns": [

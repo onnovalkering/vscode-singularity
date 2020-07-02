@@ -8,3 +8,6 @@
 This extension provides syntax highlighting for Singularity definition files.
 
 <img src="https://raw.githubusercontent.com/onnovalkering/vscode-singularity/master/images/preview.png" alt="preview" width="900"/>
+
+## Acknowledgements
+The `interpolation`, `keyword`, `string`, and `variable` patterns (Bash) originate from [microsoft/vscode](https://github.com/microsoft/vscode).
