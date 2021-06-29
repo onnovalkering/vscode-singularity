@@ -10,7 +10,7 @@ This extension provides syntax highlighting for Singularity definition files.
 ## GitHub
 Syntax highlighting of Singularity definition files on GitHub is also based on this extension. 
 Currently, only files that have `Singularity` as the exact file name are recognized. 
-To recognize other files, e.g., `Singularity[.<tag>]` and `*.def`, a `.gitattribute` file with additional rules/patterns can be added to repositories ([example](https://github.com/onnovalkering/vscode-singularity/blob/master/.gitattributes)).
+To recognize other files, e.g., `Singularity.*` and `*.def`, a `.gitattribute` file with additional rules/patterns can be added to GitHub repositories ([example](https://github.com/onnovalkering/vscode-singularity/blob/master/.gitattributes)).
 
 ## Preview
 
