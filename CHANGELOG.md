@@ -2,6 +2,10 @@
 
 All notable changes to the "vscode-singularity" extension will be documented in this file.
 
+## [0.6.0] - 2022-02-12
+### Added
+- Filename associations for Apptainer. 
+
 ## [0.5.1] - 2021-06-29
 ### Added
 - GitHub `.gitattribute` example.

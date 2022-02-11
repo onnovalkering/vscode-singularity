@@ -1,5 +1,4 @@
 .vscode/**
-.vscode-test/**
-.gitattributes
 test
-
+.gitattributes
+.vscodeignore

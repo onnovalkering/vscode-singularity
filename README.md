@@ -3,9 +3,9 @@
 [![Visual Studio Marketplace Installs](https://img.shields.io/visual-studio-marketplace/i/onnovalkering.vscode-singularity)](https://marketplace.visualstudio.com/items?itemName=onnovalkering.vscode-singularity)
 [![Visual Studio Marketplace Rating](https://img.shields.io/visual-studio-marketplace/r/onnovalkering.vscode-singularity)](https://marketplace.visualstudio.com/items?itemName=onnovalkering.vscode-singularity)
 
-# Singularity support for Visual Studio Code
+# Apptainer/Singularity
 
-This extension provides syntax highlighting for Singularity definition files.
+This extension provides syntax highlighting for Apptainer/Singularity definition files.
 
 ## GitHub
 Syntax highlighting of Singularity definition files on GitHub is also based on this extension. 
