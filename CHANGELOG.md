@@ -2,6 +2,10 @@
 
 All notable changes to the "vscode-singularity" extension will be documented in this file.
 
+## [0.7.0] - 2022-11-26
+### Added
+- Highlighting of `registry` and `namespace` keywords ([#6](https://github.com/onnovalkering/vscode-singularity/pull/6), [@BeneKenobi](https://github.com/BeneKenobi)).
+
 ## [0.6.0] - 2022-02-12
 ### Added
 - Filename associations for Apptainer. 

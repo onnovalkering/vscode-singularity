@@ -2,7 +2,7 @@
     "name": "vscode-singularity",
     "displayName": "Apptainer/Singularity",
     "description": "Provides syntax highlighting for Apptainer/Singularity definition files.",
-    "version": "0.6.0",
+    "version": "0.7.0",
     "icon": "images/icon.png",
     "publisher": "onnovalkering",
     "engines": {
