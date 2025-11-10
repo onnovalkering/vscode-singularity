@@ -2,6 +2,10 @@
 
 All notable changes to the "vscode-singularity" extension will be documented in this file.
 
+## [0.8.0] - 2025-11-10
+### Added
+- Highlighting of `arguments` keyword ([#7](https://github.com/onnovalkering/vscode-singularity/pull/7), [@Knight-JChev](https://github.com/Knight-JChev)).
+
 ## [0.7.0] - 2022-11-26
 ### Added
 - Highlighting of `registry` and `namespace` keywords ([#6](https://github.com/onnovalkering/vscode-singularity/pull/6), [@BeneKenobi](https://github.com/BeneKenobi)).
